@@ -135,6 +135,14 @@ a{
   }
 }
 
+/* Base styles (Mobile) */
+.container { width: 100%; }
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+  .container { width: 80%; }
+}
+
 /* Contact Form styles*/
 
 #fcf-form {
